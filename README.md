@@ -55,6 +55,7 @@ Before running the project, ensure you have the following installed:
    - Transcribe your speech in real-time using AWS Transcribe, displaying both partial and final transcripts in separate sections.
    - Translate the transcription with AWS Translate, showing partial and final translations distinctly.
    - Convert the final translation to speech with AWS Polly and allow playback via the control buttons.
+      - **Note** The queue system for the Polly audio chunks is still in devlopment and is not working as intended.
 5. Partial Results:
 
    - As you speak, partial transcriptions and their translations will appear live in designated sections.
