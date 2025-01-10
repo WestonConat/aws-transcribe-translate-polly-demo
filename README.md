@@ -9,7 +9,7 @@ This project is a simple demo application that showcases the capabilities of AWS
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/westonblazestreaming/aws-transcribe-demo.git
+   git clone https://github.com/WestonConat/aws-transcribe-translate-polly-demo.git
    cd aws-transcribe-demo
    ```
 
