@@ -1,0 +1,28 @@
+{
+  "name": "aws-transcribe-demo",
+  "version": "1.0.0",
+  "description": "A demo application to test AWS Transcribe real-time transcription service.",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@aws-sdk/client-polly": "^3.726.0",
+    "@aws-sdk/client-translate": "^3.726.0",
+    "@aws-sdk/client-transcribe": "^3.723.0",
+    "@aws-sdk/client-transcribe-streaming": "^3.723.0",
+    "aws-sdk": "^2.1234.0",
+    "socket.io-client": "^4.0.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.9.5",
+    "vite": "^6.0.7",
+    "@types/node": "^22.10.5"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": []
+}

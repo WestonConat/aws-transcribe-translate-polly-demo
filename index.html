@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Real-Time Transcription & TTS Demo</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Real-Time Transcription, Translation, and TTS Demo</h1>
+
+    <!-- Device Selection -->
+    <div class="device-row">
+      <label for="audioSourceSelect">Audio Source:</label>
+      <select id="audioSourceSelect"></select>
+      <button id="refreshDevicesButton">Refresh Devices</button>
+    </div>
+
+    <!-- Recording Controls -->
+    <div class="button-row">
+      <button id="toggleRecordingButton">Start Recording</button>
+      <button id="clearTranscriptButton">Clear Transcript</button>
+    </div>
+
+    <!-- Partial Transcript -->
+    <div class="transcript-section">
+      <div class="transcript-title">Partial Transcript (real-time)</div>
+      <div id="partial-transcript" class="transcript-box">
+        (Partial transcripts will appear here)
+      </div>
+    </div>
+
+    <!-- Final Transcript -->
+    <div class="transcript-section">
+      <div class="transcript-title">Final Transcript (English)</div>
+      <div id="final-transcript" class="transcript-box">
+        (Final transcripts will appear here)
+      </div>
+      <div class="button-row">
+        <button id="startEnglishTTSButton">Start English TTS</button>
+        <button id="stopEnglishTTSButton">Stop English TTS</button>
+      </div>
+    </div>
+
+    <!-- Partial Transcript -->
+    <div class="transcript-section">
+      <div class="transcript-title">Partial Translation (real-time)</div>
+      <div id="partial-translation" class="transcript-box">
+        (Partial translations will appear here)
+      </div>
+    </div>
+
+    <!-- Final Translation -->
+    <div class="transcript-section">
+      <div class="transcript-title">Final Translation</div>
+      <div id="final-translation" class="transcript-box">
+        (Final translations will appear here)
+      </div>
+      <div class="button-row">
+        <button id="startTranslatedTTSButton">Start Translated TTS</button>
+        <button id="stopTranslatedTTSButton">Stop Translated TTS</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="/src/app.ts"></script>
+</body>
+</html>
